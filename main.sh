@@ -17,7 +17,7 @@ done
 
 
 
-echo "Please select a number for the shell you want to run:"
+echo "Please select a number for the script you want to run:"
 select shell in ${files[@]}
 do
   if [ -f ${SHELLDIR}/${shell} ]; then
