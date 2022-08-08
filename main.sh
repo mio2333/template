@@ -18,7 +18,7 @@ done
 
 
 echo "Please select a number for the script you want to run:"
-select shell in $files[@]
+select shell in ${files[@]}
 do
   if [ -f ${SHELLDIR}/${shell} ]; then
     bash ${SHELLDIR}/${shell}
