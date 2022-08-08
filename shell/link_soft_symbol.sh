@@ -1,0 +1,1 @@
+ln -s ${DATA_ROOT} ${ProjectDIR}/DATA_ROOT
