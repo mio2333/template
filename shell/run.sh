@@ -1,1 +1,1 @@
-echo "run run.sh"
+${SHELLDIR}/submit_gpu_work ${CUDA_VISIBLE_DEVICES} 9 24 ${SHELLDIR}/run.sh
